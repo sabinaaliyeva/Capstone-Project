@@ -157,7 +157,7 @@ main {
 
 /* More creative login modal styles */
 .modal-content {
-    background: linear-gradient(135deg, #03346E, #021526); /* Blue to black gradient */
+    background: linear-gradient(135deg, #03346E, #8db4d6); /* Blue to black gradient */
     color: #111a35;
     padding: 30px;
     border-radius: 15px;
@@ -246,7 +246,7 @@ main {
 
 /* Centering the modal content and keeping the same style as the login modal */
 .signup-modal .modal-content {
-    background: linear-gradient(135deg, #03346E, #021526); /* Blue to black gradient */
+    background: linear-gradient(135deg, #03346E, #8db4d6); /* Blue to black gradient */
     color: #111a35;
     padding: 40px;
     border-radius: 15px;
@@ -261,7 +261,7 @@ main {
 .signup-modal .modal-content h2 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #111a35;
+    color: #9ba2b6;
     font-weight: bold;
 }
 
