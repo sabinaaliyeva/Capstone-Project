@@ -1,13 +1,32 @@
-body {
+/* src/index.css */
+
+/* CSS Reset */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Import Roboto Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Define CSS Variables */
+:root {
+  --primary-color: #1e40af; /* Deep Blue */
+  --secondary-color: #ffffff; /* White */
+  --accent-color: #000000; /* Black */
+  --background-color: #f0f4f8; /* Light Gray Background */
+  --text-color: #333333; /* Dark Gray Text */
+  --heading-color: #1e40af; /* Deep Blue for Headings */
+  --subheading-color: #4b5563; /* Gray for Subheadings */
 }
+
+/* Apply Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Additional Global Styles (if any) */
